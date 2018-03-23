@@ -6,18 +6,18 @@ public class ServerClient {
 	public int port;
 	public String name;
 	public InetAddress address;
-	public final int ID;
+	public final int Id;
 	public int attempt = 0;
 	
-	public ServerClient(String name,InetAddress address,int port,final int ID){
+	public ServerClient(String name,InetAddress address,int port,final int Id){
 		this.name = name;
 		this.port= port;
 		this.address = address;
-		this.ID = ID;
+		this.Id = Id;
 	}
 	
 	public int getID(){
-		return ID;
+		return Id;
 	}
  
 }
