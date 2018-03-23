@@ -36,7 +36,7 @@ public class Login extends JFrame {
 		contentPane.setLayout(null);
 		
 		txtName = new JTextField();
-		txtName.setBounds(60, 84, 153, 19);
+		txtName.setBounds(60, 84, 253, 19);
 		contentPane.add(txtName);
 		txtName.setColumns(10);
 		
@@ -50,7 +50,7 @@ public class Login extends JFrame {
 		txtAddress.setColumns(10);
 		
 		lblIpAddress = new JLabel("IP Address:");
-		lblIpAddress.setBounds(99, 135, 114, 15);
+		lblIpAddress.setBounds(99, 145, 114, 15);
 		contentPane.add(lblIpAddress);
 		
 		txtPort = new JTextField();
